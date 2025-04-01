@@ -23,9 +23,9 @@ if [ ! -f "$CEFZIP" ]; then
     echo "downloading cef binaries"
     if ! command -v aria2c &> /dev/null
     then
-    	curl -o "$CEFZIP" "https://cef-builds.spotifycdn.com/cef_binary_120.1.8%2Bge6b45b0%2Bchromium-120.0.6099.109_${ARCH}_minimal.tar.bz2"
+    	curl -o "$CEFZIP" "https://cef-builds.spotifycdn.com/cef_binary_134.3.9%2Bg5dc6f2f%2Bchromium-134.0.6998.178_${ARCH}_minimal.tar.bz2"
     else
-    	aria2c -c -o "$CEFZIP" "https://cef-builds.spotifycdn.com/cef_binary_120.1.8%2Bge6b45b0%2Bchromium-120.0.6099.109_${ARCH}_minimal.tar.bz2"
+    	aria2c -c -o "$CEFZIP" "https://cef-builds.spotifycdn.com/cef_binary_134.3.9%2Bg5dc6f2f%2Bchromium-134.0.6998.178_${ARCH}_minimal.tar.bz2"
     fi
 fi
 
