@@ -7,7 +7,7 @@
     <owners></owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>CEF - the Chromium Embedded Framework.</description>
-    <copyright>Copyright © 2024</copyright>
+    <copyright>Copyright © 2025</copyright>
     <tags>chrome chromium native embedded browser CEF nativepackage linux</tags>
     <license type="file">LICENSE.txt</license>
     <repository type="git" url="https://github.com/OutSystems/cef.redist.linux.git" />
